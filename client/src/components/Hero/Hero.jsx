@@ -1,5 +1,6 @@
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { FaCode } from "react-icons/fa6";
 import { MdMailOutline, MdOutlineEventAvailable } from "react-icons/md";
 import "./Hero.css";
 export const Hero = () => {
@@ -44,7 +45,9 @@ export const Hero = () => {
           </ul>
         </div>
         <div className="profile__skills">
-          <h3>My skills</h3>
+          <h3>
+            My skills <FaCode className="fill__primary" />
+          </h3>
           <ul className="profile__skills-ul">
             <li className="profile__skills-li">React</li>
             <li className="profile__skills-li">Redux</li>

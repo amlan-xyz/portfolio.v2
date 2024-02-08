@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&display=swap");
 :root {
   --primary-color: #9953c0;
-  --bg-color: #140e14;
+  --bg-color: #1e1a1e;
   --text-color: #f5ecf8;
+  --bg-alt: rgb(47, 47, 47);
   --font-w-200: 200;
   --font-w-400: 400;
   --font-w-600: 600;
@@ -41,4 +42,18 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.fill__primary {
+  fill: var(--primary-color);
+}
+
+.main {
+  padding: 2rem 5rem;
+}
+
+@media (max-width: 425px) {
+  .main {
+    padding: 2rem 1rem;
+  }
 }
