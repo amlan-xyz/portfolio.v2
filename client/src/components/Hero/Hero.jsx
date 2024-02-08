@@ -11,7 +11,7 @@ export const Hero = () => {
       </div>
       <div className="hero__body">
         <div className="profile__heading">
-          <img src="/profile.jpg" alt="Me" className="profile__pic" />
+          <img src="/profile-animated.gif" alt="Me" className="profile__pic" />
           <a
             href="https://www.linkedin.com/in/amlanxyz"
             className="hireme__btn"
