@@ -31,6 +31,13 @@ export const Post = ({ post }) => {
       </div>
 
       <p className="post__details">{post.description}</p>
+      <small>
+        {" "}
+        <i>
+          Note: Backend hosted on free Render server. Please give it 15s - 20s
+          to load.
+        </i>
+      </small>
       <ul className="post__tech">
         {post?.tech.map((item) => (
           <li>{item}</li>

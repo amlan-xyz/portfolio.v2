@@ -1,5 +1,6 @@
 export const feedData = [
   {
+    id: 1,
     img: "/posts/shop.jpg",
     title: "Candyland",
     subTitle: "E-Commerce Application",
@@ -12,6 +13,7 @@ export const feedData = [
     tech: ["React", "Node.js", "mongodb"],
   },
   {
+    id: 2,
     img: "/posts/social.jpg",
     title: "We Share",
     subTitle: "Social Media Application",

@@ -7,7 +7,7 @@ export const Feed = () => {
     <div className="feed container">
       <ul className="feed__ul">
         {feedData?.map((post) => (
-          <li className="feed__li">
+          <li key={post.id} className="feed__li">
             <Post post={post} />
           </li>
         ))}

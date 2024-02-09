@@ -77,6 +77,10 @@
   color: white;
 }
 
+.post i {
+  font-weight: var(--font-w-200);
+}
+
 @media (max-width: 425px) {
   .post__video iframe {
     height: 250px;
