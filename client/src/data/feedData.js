@@ -25,4 +25,17 @@ export const feedData = [
     github: "https://github.com/amlan-xyz/social-media-application",
     tech: ["React", "Node.js", "mongodb", "Redux"],
   },
+  {
+    id: 3,
+    img: "/posts/chat.png",
+    title: "ChatterBox",
+    subTitle: "Chat Application",
+    description:
+      "ChatterBox is a real time chat application created using MERN stack and socket.io to achieve real time connection.",
+    videoUrl:
+      "https://www.loom.com/embed/8ab0e68e280e4b939d69ab1291ca1ab4?sid=994efe7d-5aee-499e-a674-a2ec8f567f25?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
+    live: "https://chatterbox-by-amlan.vercel.app/",
+    github: "https://github.com/amlan-xyz/chat-application",
+    tech: ["React", "Node.js", "mongodb", "socket.io"],
+  },
 ];

@@ -55,6 +55,7 @@ export const Hero = () => {
             <li className="profile__skills-li">MongoDB</li>
             <li className="profile__skills-li">Node.js</li>
             <li className="profile__skills-li">Express.js</li>
+            <li className="profile__skills-li">socket.io</li>
             <li className="profile__skills-li">HTML5</li>
             <li className="profile__skills-li">CSS3</li>
             <li className="profile__skills-li">Typescript</li>
